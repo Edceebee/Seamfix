@@ -1,24 +1,25 @@
 package com.validation.seamfix.responses;
 
-import javafx.scene.image.Image;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-;import java.io.File;
+import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class BvnResponse {
-    private File image1;
+    private String image1;
 
-    private File image2;
+    private String image2;
 
     private String message;
 
-    private String statusCode;
+    private String status;
 
     private String bvn;
 
     public BvnResponse(String message) {
         this.message = message;
     }
+
 }

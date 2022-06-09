@@ -13,7 +13,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 public class SwaggerConfig {
     /**
      Method to configure swagger.
-     @return documentation
+     @return documentation on the web
      */
 
     @Bean

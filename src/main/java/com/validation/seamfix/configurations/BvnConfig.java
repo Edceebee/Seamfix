@@ -14,11 +14,11 @@ public class BvnConfig {
     @Bean
     CommandLineRunner commandLineRunner(BvnRepository bvnRepository) {
         return (args) -> {
-            Bvn bvn = new Bvn(null, "1234367890");
-            Bvn bvn2 = new Bvn(null, "9876354292");
-            Bvn bvn3 = new Bvn(null, "8353729208");
-            Bvn bvn4 = new Bvn(null, "3487902513");
-            Bvn bvn5 = new Bvn(null, "8783082643");
+            Bvn bvn = new Bvn(null, "71234367890");
+            Bvn bvn2 = new Bvn(null, "69876354292");
+            Bvn bvn3 = new Bvn(null, "968353729208");
+            Bvn bvn4 = new Bvn(null, "34874902513");
+            Bvn bvn5 = new Bvn(null, "87830822643");
 
             bvnRepository.save(bvn);
             bvnRepository.save(bvn2);

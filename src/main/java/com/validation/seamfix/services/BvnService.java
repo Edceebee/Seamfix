@@ -3,7 +3,8 @@ package com.validation.seamfix.services;
 import com.validation.seamfix.models.Bvn;
 import com.validation.seamfix.responses.BvnResponse;
 
-public interface BvnService {
+import java.util.Optional;
 
-    BvnResponse validateBvn(String bvn);
+public interface BvnService {
+    Optional<BvnResponse> validateBvn(Bvn bvn) throws Exception;
 }
