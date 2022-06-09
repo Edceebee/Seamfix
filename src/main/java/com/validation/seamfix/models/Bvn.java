@@ -18,10 +18,6 @@ public class Bvn {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-//
-//    @PrimaryKey
-//    @CassandraType(type = CassandraType.Name.UUID)
-//    private UUID uid = UUID.randomUUID();
 
     private String bvn;
 }
